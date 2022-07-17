@@ -18,6 +18,12 @@ e.g.    Output:  Title: Ukraine News: Russian Strike on Central Ukrainian City K
 
 Requirement: Create an API/method/function that will receive the version number as an input string and will parse the version to return the 3 containing numbers.
 
-e.g. Input = "2.4.254"
+e.g.    Input = "2.4.254"
 
-desired Output = “Major=2; Minor=4; BugFix=254”
+        desired Output = “Major=2; Minor=4; BugFix=254”
+
+
+
+The RSS parser is writed in JavaScript with JQuery, with a super basic HTML page for the OUTPUT.
+
+The Version parser is writen in Vanilla JavaScript, with a super basic HTML page, with only a form for the UI, and the OUTPUT will be shown in a alert popup.
